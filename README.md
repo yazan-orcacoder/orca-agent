@@ -14,7 +14,7 @@ The agent follows a **Think → Act → Observe → Iterate → Finish** cycle.
 
 This loop allows the LLM to decide what actions are needed, observe their results, and continue reasoning until the task is complete.
 
-``mermaid
+```mermaid
 flowchart TD
     A([Start]) --> B[Think: Send messages to LLM]
     B --> C{LLM response}
@@ -23,4 +23,4 @@ flowchart TD
     E --> F[Append results to message history]
     F --> B
     C -->|Final response| G([Finish])
-``
+```
