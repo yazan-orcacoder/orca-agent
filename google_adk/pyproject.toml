@@ -1,0 +1,22 @@
+[project]
+name = "orca-agent-google-adk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "yazan-orcacoder", email = "yazanzk16@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "google-adk>=2.14.0",
+]
+
+[project.scripts]
+orca-agent-google-adk = "orca_agent_google_adk:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = false
