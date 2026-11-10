@@ -330,7 +330,7 @@ wheels = [
 ]
 
 [[package]]
-name = "orca-agent"
+name = "orca-agent-from-scratch"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
